@@ -1,0 +1,104 @@
+2018-12-21 11:58:22 main INFO  WhatsappBot - Please scan Qr code to use whatsWeb
+2018-12-21 12:04:44 main INFO  WhatsappBot - Please scan Qr code to use whatsWeb
+2018-12-21 12:07:19 main INFO  WhatsappBot - Please scan Qr code to use whatsWeb
+2018-12-21 12:07:23 main INFO  WhatsappBot - Sending message to : 9044438457 
+2018-12-21 12:07:26 main INFO  WhatsappBot - Message sent successfully to  : 9044438457
+2018-12-21 12:18:20 main INFO  WhatsappBot - Please scan Qr code to use whatsWeb
+2018-12-21 12:18:23 main INFO  WhatsappBot - Sending message to : 9044438457 
+2018-12-21 12:18:27 main INFO  WhatsappBot - Message sent successfully to  : 9044438457
+2018-12-21 12:18:30 main INFO  WhatsappBot - Sending message to : 9971701979 
+2018-12-21 12:18:34 main INFO  WhatsappBot - Message sent successfully to  : 9971701979
+2018-12-21 12:21:21 main ERROR XmlUtils - failed while loading data for class :class com.skillmap.bot.Configuration resourcepath :file:/home/rajat/WhatsAppBot/config.xml
+java.io.IOException: javax.xml.stream.XMLStreamException: ParseError at [row,col]:[7,30]
+Message: The reference to entity "B" must end with the ';' delimiter.
+	at com.fasterxml.jackson.dataformat.xml.util.StaxUtil.throwXmlAsIOException(StaxUtil.java:24)
+	at com.fasterxml.jackson.dataformat.xml.deser.XmlTokenStream.next(XmlTokenStream.java:164)
+	at com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser.nextToken(FromXmlParser.java:473)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.vanillaDeserialize(BeanDeserializer.java:253)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:125)
+	at com.fasterxml.jackson.databind.ObjectMapper._readValue(ObjectMapper.java:3708)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:2071)
+	at com.fasterxml.jackson.dataformat.xml.XmlMapper.readValue(XmlMapper.java:205)
+	at com.fasterxml.jackson.dataformat.xml.XmlMapper.readValue(XmlMapper.java:180)
+	at com.skillmap.bot.utils.XmlUtils.convertXmlToJavaObject(XmlUtils.java:71)
+	at com.skillmap.bot.utils.XmlUtils.convertXmlToJavaObjectSilently(XmlUtils.java:43)
+	at com.skillmap.bot.Configuration.initializeConfiguration(Configuration.java:39)
+	at com.skillmap.bot.WhatsappBot.main(WhatsappBot.java:22)
+Caused by: javax.xml.stream.XMLStreamException: ParseError at [row,col]:[7,30]
+Message: The reference to entity "B" must end with the ';' delimiter.
+	at com.sun.org.apache.xerces.internal.impl.XMLStreamReaderImpl.next(XMLStreamReaderImpl.java:604)
+	at javax.xml.stream.util.StreamReaderDelegate.next(StreamReaderDelegate.java:88)
+	at org.codehaus.stax2.ri.Stax2ReaderAdapter.next(Stax2ReaderAdapter.java:129)
+	at com.fasterxml.jackson.dataformat.xml.deser.XmlTokenStream._collectUntilTag(XmlTokenStream.java:349)
+	at com.fasterxml.jackson.dataformat.xml.deser.XmlTokenStream._next(XmlTokenStream.java:312)
+	at com.fasterxml.jackson.dataformat.xml.deser.XmlTokenStream.next(XmlTokenStream.java:162)
+	... 11 more
+2018-12-21 12:25:02 main ERROR XmlUtils - failed while loading data for class :class com.skillmap.bot.Configuration resourcepath :file:/home/rajat/WhatsAppBot/config.xml
+java.io.IOException: javax.xml.stream.XMLStreamException: ParseError at [row,col]:[7,30]
+Message: The reference to entity "B" must end with the ';' delimiter.
+	at com.fasterxml.jackson.dataformat.xml.util.StaxUtil.throwXmlAsIOException(StaxUtil.java:24)
+	at com.fasterxml.jackson.dataformat.xml.deser.XmlTokenStream.next(XmlTokenStream.java:164)
+	at com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser.nextToken(FromXmlParser.java:473)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.vanillaDeserialize(BeanDeserializer.java:253)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:125)
+	at com.fasterxml.jackson.databind.ObjectMapper._readValue(ObjectMapper.java:3708)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:2071)
+	at com.fasterxml.jackson.dataformat.xml.XmlMapper.readValue(XmlMapper.java:205)
+	at com.fasterxml.jackson.dataformat.xml.XmlMapper.readValue(XmlMapper.java:180)
+	at com.skillmap.bot.utils.XmlUtils.convertXmlToJavaObject(XmlUtils.java:71)
+	at com.skillmap.bot.utils.XmlUtils.convertXmlToJavaObjectSilently(XmlUtils.java:43)
+	at com.skillmap.bot.Configuration.initializeConfiguration(Configuration.java:39)
+	at com.skillmap.bot.WhatsappBot.main(WhatsappBot.java:24)
+Caused by: javax.xml.stream.XMLStreamException: ParseError at [row,col]:[7,30]
+Message: The reference to entity "B" must end with the ';' delimiter.
+	at com.sun.org.apache.xerces.internal.impl.XMLStreamReaderImpl.next(XMLStreamReaderImpl.java:604)
+	at javax.xml.stream.util.StreamReaderDelegate.next(StreamReaderDelegate.java:88)
+	at org.codehaus.stax2.ri.Stax2ReaderAdapter.next(Stax2ReaderAdapter.java:129)
+	at com.fasterxml.jackson.dataformat.xml.deser.XmlTokenStream._collectUntilTag(XmlTokenStream.java:349)
+	at com.fasterxml.jackson.dataformat.xml.deser.XmlTokenStream._next(XmlTokenStream.java:312)
+	at com.fasterxml.jackson.dataformat.xml.deser.XmlTokenStream.next(XmlTokenStream.java:162)
+	... 11 more
+2018-12-21 12:40:34 main INFO  WhatsappBot - Please scan Qr code to use whatsWeb
+2018-12-21 12:40:37 main INFO  WhatsappBot - Sending message to : 9044438457 
+2018-12-21 12:40:45 main INFO  WhatsappBot - Message sent successfully to  : 9044438457
+2018-12-21 12:40:49 main INFO  WhatsappBot - Sending message to : 9971701979 
+2018-12-21 12:40:56 main INFO  WhatsappBot - Message sent successfully to  : 9971701979
+2018-12-21 13:04:47 main INFO  WhatsappBot - Please scan Qr code to use whatsWeb
+2018-12-21 13:04:50 main INFO  WhatsappBot - Sending message to : 9044438457 
+2018-12-21 13:04:55 main INFO  WhatsappBot - Message sent successfully to  : 9044438457
+2018-12-21 13:04:58 main INFO  WhatsappBot - Sending message to : 9971701979 
+2018-12-21 13:05:03 main INFO  WhatsappBot - Message sent successfully to  : 9971701979
+2018-12-21 13:19:41 main INFO  WhatsappBot - Please scan Qr code to use whatsWeb
+2018-12-21 13:19:45 main INFO  WhatsappBot - Sending message to : 9044438457 
+2018-12-21 13:19:50 main INFO  WhatsappBot - Message sent successfully to  : 9044438457
+2018-12-21 13:19:53 main INFO  WhatsappBot - Sending message to : 9971701979 
+2018-12-21 13:19:58 main INFO  WhatsappBot - Message sent successfully to  : 9971701979
+2018-12-21 13:24:47 main INFO  WhatsappBot - Please scan Qr code to use whatsWeb
+2018-12-21 13:24:51 main INFO  WhatsappBot - Sending message to : 9044438457 
+2018-12-21 13:24:56 main INFO  WhatsappBot - Message sent successfully to  : 9044438457
+2018-12-21 13:24:59 main INFO  WhatsappBot - Sending message to : 9971701979 
+2018-12-21 13:25:04 main INFO  WhatsappBot - Message sent successfully to  : 9971701979
+2018-12-21 13:27:24 main INFO  WhatsappBot - Please scan Qr code to use whatsWeb
+2018-12-21 13:27:27 main INFO  WhatsappBot - Sending message to : 9044438457 
+2018-12-21 13:29:10 main INFO  WhatsappBot - Please scan Qr code to use whatsWeb
+2018-12-21 13:29:14 main INFO  WhatsappBot - Sending message to : 9044438457 
+2018-12-21 13:29:18 main INFO  WhatsappBot - Message sent successfully to  : 9044438457
+2018-12-21 13:29:21 main INFO  WhatsappBot - Sending message to : 9971701979 
+2018-12-21 13:29:26 main INFO  WhatsappBot - Message sent successfully to  : 9971701979
+2018-12-21 14:59:01 main INFO  WhatsappBot - Please scan Qr code to use whatsWeb
+2018-12-21 14:59:05 main INFO  WhatsappBot - Sending message to : 9044438457 
+2018-12-21 14:59:11 main INFO  WhatsappBot - Message sent successfully to  : 9044438457
+2018-12-21 14:59:14 main INFO  WhatsappBot - Sending message to : 9971701979 
+2018-12-21 14:59:19 main INFO  WhatsappBot - Message sent successfully to  : 9971701979
+2018-12-21 15:00:34 main INFO  WhatsappBot - Please scan Qr code to use whatsWeb
+2018-12-21 15:00:37 main INFO  WhatsappBot - Sending message to : 9044438457 
+2018-12-21 15:25:00 main INFO  WhatsappBot - Please scan Qr code to use whatsWeb
+2018-12-21 15:25:04 main INFO  WhatsappBot - Sending message to : 9044438457 
+2018-12-21 15:25:09 main INFO  WhatsappBot - Message sent successfully to  : 9044438457
+2018-12-21 15:25:12 main INFO  WhatsappBot - Sending message to : 9971701979 
+2018-12-21 15:25:17 main INFO  WhatsappBot - Message sent successfully to  : 9971701979
+2018-12-21 15:32:33 main INFO  WhatsappBot - Please scan Qr code to use whatsWeb
+2018-12-21 15:32:36 main INFO  WhatsappBot - Sending message to : 9044438457 
+2018-12-21 15:32:41 main INFO  WhatsappBot - Message sent successfully to  : 9044438457
+2018-12-21 15:32:45 main INFO  WhatsappBot - Sending message to : 9971701979 
+2018-12-21 15:32:49 main INFO  WhatsappBot - Message sent successfully to  : 9971701979
